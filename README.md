@@ -10,4 +10,6 @@ Detailed source code for MasulsaAgent.jar.
 I set MasulsaAgent.jar to javaagent and manipulated Bytecode when the class was loaded.
 ![image](https://user-images.githubusercontent.com/35192352/132127175-2ac9cc4e-5d7b-44c2-ab83-e86c264e1d77.png)
 By manipulating the bytecode, you can use it when you need to change the code without touching the Java source code.
+# What you can do through bytecode manipulating
+- Register bean with component scan Used to search candidate class information.
 
